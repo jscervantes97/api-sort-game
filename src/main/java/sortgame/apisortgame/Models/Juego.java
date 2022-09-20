@@ -32,4 +32,8 @@ public class Juego {
         this.listaPilaColores = new ArrayList<>();
     }
 
+    public void incrementarMovimientos(){
+        this.totalMovimientos++ ;
+    }
+
 }
